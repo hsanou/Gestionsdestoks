@@ -29,19 +29,19 @@ L’application devra etre capable :
 - Concevoir et developper une application web (Gestion de stock)
 - Developper le backend (Spring)
 - Developper le Front avec Angular (la version 10 ou recente)
-Dockeriser l'application (l'environnement)
+## Dockeriser l'application (l'environnement)
 - Conteneur pour la BDD
 - Conteneur Pour l'application backend
-- Conteneur Pour l'application frontend	
-AWS
+- Conteneur Pour l'application frontend
+## AWS
 - Cloud
 - AWS console management
 - Terraform pour IaC (Insfrastructure as Code)
-Environnement de travail
+## Environnement de travail
 - JAVA 8 min ou 11 recommende
 - IDE (Eclipse)
 - MySql (Xamp ou Wamp)
-Plan de travail
+## Plan de travail
 - backend
   - Conception (UML: Diagramme de classes)
   - Creer un projet Spring boot
