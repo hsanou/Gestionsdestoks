@@ -3,7 +3,42 @@
 Application web de gestion de stock
 ## PROBLEMATIQUE:
 Comment concevoir et développer une application web de gestion de stock efficace et conviviale, capable de suivre en temps réel les entrées et sorties de stock, de fournir des alertes de réapprovisionnement, tout en optimisant les niveaux de stock pour minimiser les coûts et maximiser la disponibilité des produits ?
-## Cahier de charge
+## OBJECTIFS SPECIFIQUES:
+L’application devra etre capable :
+- Concevoir et developper une application web (Gestion de stock)
+- Developper le backend (Spring)
+- Developper le Front avec Angular (la version 10 ou recente)
+### Dockeriser l'application (l'environnement)
+- Conteneur pour la BDD
+- Conteneur Pour l'application backend
+- Conteneur Pour l'application frontend
+### AWS
+- Cloud
+- AWS console management
+- Terraform pour IaC (Insfrastructure as Code)
+### Environnement de travail
+- JAVA 8 min ou 11 recommende
+- IDE (Eclipse)
+- MySql (Xamp ou Wamp)
+### Plan de travail
+- backend
+  - Conception (UML: Diagramme de classes)
+  - Creer un projet Spring boot
+  - Configurer le projet
+  - creer les entites (models), les services, ...
+  - Configuerer Swagger (API documentation)
+  - Generer le Swagger.json => Generer les services, model pour l'application front
+  - MySql (Xamp ou Wamp)
+- backend
+  - Creer le projet Angular
+  - decouper l'applicationen components
+  - creer les components
+  - creer les services
+  - developper les interfaces (Les ecrans)
+- DevOps
+  - Creer des image Docker (BDD,Backend[API],Frontend)
+  - faire fonctionner l'application en dehors des IDE
+# Cahier de charge
 On souhaite développer une application de gestion de stock pour répondre aux besoins de nos clients. Cette application permet de :
 - Créer des profils pour chaque entreprise
 - Une Entreprise a un ou plusieurs utilisateurs
@@ -24,38 +59,3 @@ On souhaite développer une application de gestion de stock pour répondre aux b
 - Consulter l'état du stock de chaque article
     - Voir la quantité de stock de l’article en temps réel
     - Effectuer des corrections de stock (mettre à jour le stock)
-## OBJECTIFS SPECIFIQUES:
-L’application devra etre capable :
-- Concevoir et developper une application web (Gestion de stock)
-- Developper le backend (Spring)
-- Developper le Front avec Angular (la version 10 ou recente)
-## Dockeriser l'application (l'environnement)
-- Conteneur pour la BDD
-- Conteneur Pour l'application backend
-- Conteneur Pour l'application frontend
-## AWS
-- Cloud
-- AWS console management
-- Terraform pour IaC (Insfrastructure as Code)
-## Environnement de travail
-- JAVA 8 min ou 11 recommende
-- IDE (Eclipse)
-- MySql (Xamp ou Wamp)
-## Plan de travail
-- backend
-  - Conception (UML: Diagramme de classes)
-  - Creer un projet Spring boot
-  - Configurer le projet
-  - creer les entites (models), les services, ...
-  - Configuerer Swagger (API documentation)
-  - Generer le Swagger.json => Generer les services, model pour l'application front
-  - MySql (Xamp ou Wamp)
-- backend
-  - Creer le projet Angular
-  - decouper l'applicationen components
-  - creer les components
-  - creer les services
-  - developper les interfaces (Les ecrans)
-- DevOps
-  - Creer des image Docker (BDD,Backend[API],Frontend)
-  - faire fonctionner l'application en dehors des IDE
