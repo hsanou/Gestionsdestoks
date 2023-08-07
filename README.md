@@ -51,7 +51,7 @@ Plan de travail
   - Generer le Swagger.json => Generer les services, model pour l'application front
   - MySql (Xamp ou Wamp)
 - backend
-  - Ceer et exliquer le projet Angular
+  - Creer le projet Angular
   - decouper l'applicationen components
   - creer les components
   - creer les services
