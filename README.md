@@ -5,7 +5,7 @@ Application web de gestion de stock
 Comment concevoir et développer une application web de gestion de stock efficace et conviviale, capable de suivre en temps réel les entrées et sorties de stock, de fournir des alertes de réapprovisionnement, tout en optimisant les niveaux de stock pour minimiser les coûts et maximiser la disponibilité des produits ?
 ## Cahier de charge
 On souhaite développer une application de gestion de stock pour répondre aux besoins de nos clients. Cette application permet de :
-- Créer des profils pour chaque entreprise.
+- Créer des profils pour chaque entreprise
 - Une Entreprise a un ou plusieurs utilisateurs
 - Paramétrer les catégories d'articles (produit)
 - Une Entreprise a un ou plusieurs articles (produit)
